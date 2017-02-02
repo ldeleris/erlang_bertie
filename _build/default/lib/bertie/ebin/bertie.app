@@ -1,0 +1,11 @@
+{application,bertie,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[bertie_sup,bertie]},
+              {mod,{bertie_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[bertie,bertie_app,bertie_sup]},
+              {maintainers,[]},
+              {licenses,[]},
+              {links,[]}]}.
