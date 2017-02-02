@@ -12,3 +12,6 @@ Build
 -----
 
     $ rebar3 compile
+    $ rebar3 shell
+    1> application:start(bertie).
+    2> bertie:guess("Laurent Deleris").
